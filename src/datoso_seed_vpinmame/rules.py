@@ -4,16 +4,16 @@ rules = [
     {
         'name': 'VPinMame Dat',
         '_class': VPinMameDat,
-        "seed": "vpinmame",
-        "priority": 50,
-        "rules": [
+        'seed': 'vpinmame',
+        'priority': 50,
+        'rules': [
             {
-                "key": "name",
-                "operator": "contains",
-                "value": "VPinMAME"
-            }
-        ]
-    }
+                'key': 'name',
+                'operator': 'contains',
+                'value': 'VPinMAME',
+            },
+        ],
+    },
 ]
 
 
