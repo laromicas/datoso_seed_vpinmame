@@ -1,6 +1,6 @@
 """TranslatedEnglish Dat class to parse different types of dat files."""
 from datoso.configuration import config
-from datoso.repositories.dat import XMLDatFile
+from datoso.repositories.dat_file import XMLDatFile
 
 
 class VPinMameDat(XMLDatFile):
