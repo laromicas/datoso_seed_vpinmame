@@ -1,3 +1,4 @@
+"""Rules for the VPinMame seed."""
 from datoso_seed_vpinmame.dats import VPinMameDat
 
 rules = [
@@ -17,5 +18,6 @@ rules = [
 ]
 
 
-def get_rules():
+def get_rules() -> list:
+    """Get the rules."""
     return rules

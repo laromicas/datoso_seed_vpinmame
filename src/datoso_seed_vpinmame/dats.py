@@ -8,7 +8,7 @@ class VPinMameDat(XMLDatFile):
 
     seed: str = 't_en'
 
-    def initial_parse(self):
+    def initial_parse(self) -> list:
         # pylint: disable=R0801
         """Parse the dat file."""
         self.company = None
