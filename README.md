@@ -11,7 +11,7 @@ Visual PinMAME it's a Dot Matrix Display emulator, does not include any pinball 
 
 ## Installation
 
-Datoso requires python 3.10+.
+Datoso requires python 3.11+.
 
 Use pip (recommended to use a virtual environment):
 If you only need this plugin you can install it directly
