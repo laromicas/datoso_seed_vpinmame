@@ -6,7 +6,7 @@ from datoso.repositories.dat_file import XMLDatFile
 class VPinMameDat(XMLDatFile):
     """Translated English Dat class."""
 
-    seed: str = 't_en'
+    seed: str = 'vpinmame'
 
     def initial_parse(self) -> list:
         # pylint: disable=R0801
